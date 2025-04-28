@@ -66,3 +66,7 @@ const MyBookings = () => {
 };
 
 export default MyBookings;
+
+
+
+//My bookings page
