@@ -42,7 +42,7 @@ const RoomDetails = () => {
           <span>{room.hotel.name}</span>
         </div>
         {/* Room Images */}
-        <div className="flex flex-col  lg:flex-row mt-6 gap-6">
+        <div className="flex flex-col  lg:flex-row mt-7 gap-6">
           <div className="lg:w-1/2 w-full">
             <img
               className="w-full rounded-xl shadow-lg objectcover   "
@@ -190,8 +190,5 @@ const RoomDetails = () => {
 };
 
 export default RoomDetails;
-
-
-
 
 //Room Details
