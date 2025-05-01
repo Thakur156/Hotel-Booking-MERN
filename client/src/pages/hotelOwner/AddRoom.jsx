@@ -33,7 +33,7 @@ const AddRoom = () => {
       />
       {/* Upload Ara For Images */}
       <p className="text-gray-800 mt-10">Images</p>
-      <div className="grid grid-cols-2 sm:flex gap-4 my-2 flex-wrap">
+      <div className="grid grid-cols-2 sm:flex gap-4 my-2.5 flex-wrap">
         {Object.keys(images).map((key) => (
           <label htmlFor={`roomImage${key}`} key={key}>
             <img
